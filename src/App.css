@@ -1,0 +1,10 @@
+.c-scrollbar {
+    height: 100%;
+    opacity: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transform-origin: center right;
+    transition: transform .3s,opacity .3s;
+    width: 11px;
+}
