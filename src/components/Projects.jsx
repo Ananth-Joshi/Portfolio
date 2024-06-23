@@ -6,8 +6,8 @@ import { SiTypescript } from 'react-icons/si'
 
 function Projects() {
   return (
-    <div className='flex flex-col w-3/4 items-center my-5'>
-        <div className='text-white text-3xl mb-5'>MY PROJECTS</div>
+    <div className='flex flex-col items-center my-10 w-5/6 mb-5'>
+        <div className='text-white text-3xl'>MY PROJECTS</div>
         <div className='flex min-w-1/2 flex-wrap justify-center gap-2'>
             <ProjectCard
             title={'autoQ'} 
@@ -39,8 +39,6 @@ function Projects() {
                 ]
             }
             />
-            
-            
         </div>
     </div>
   )

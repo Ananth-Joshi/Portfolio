@@ -17,7 +17,7 @@ import { SiAppwrite } from "react-icons/si";
 
 function Skills() {
   return (
-    <div className='flex flex-col w-1/2 items-center'>
+    <div className='flex flex-col mx-4 my-20 md:w-1/2 lg:w-1/2 items-center'>
         <div className='text-white text-3xl mb-5'>
             MY SKILLS
         </div>
