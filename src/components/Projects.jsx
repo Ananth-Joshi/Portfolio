@@ -20,6 +20,7 @@ function Projects() {
                     <SiTypescript color='#3aa6e9'/>
                 ]
             }
+            link={'/'}
             />
             <ProjectCard 
             title={'Malware Scanner'} 
@@ -29,6 +30,7 @@ function Projects() {
                     <FaPython color='white'/>,
                 ]
             }
+            link={'https://github.com/Ananth-Joshi/Malware-Scanner'}
             />
             <ProjectCard
             title={'Tic-Tac-Toe'} 
@@ -38,6 +40,7 @@ function Projects() {
                     <FaPython color='white'/>,
                 ]
             }
+            link={'https://github.com/Ananth-Joshi/Tic-Tac-Toe'}
             />
         </div>
     </div>

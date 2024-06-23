@@ -12,6 +12,7 @@ import { SiExpress } from "react-icons/si";
 import { SiMysql } from "react-icons/si";
 import { BiLogoMongodb } from "react-icons/bi";
 import { SiAppwrite } from "react-icons/si";
+import { RiFlutterFill } from "react-icons/ri";
 
 
 
@@ -35,6 +36,7 @@ function Skills() {
             <Animation delay={1.5} once={true}><BiLogoMongodb color='#00ED64' size={'10vh'}/></Animation>
             <Animation delay={1.6} once={true}><SiAppwrite color='#d74559' size={'10vh'}/></Animation>
             <Animation delay={1.6} once={true}><RiFirebaseFill color='yellow' size={'10vh'}/></Animation>
+            <Animation delay={1.6} once={true}><RiFlutterFill color='#3aa6e9' size={'10vh'}/></Animation>
         </div>
     </div>
   )
