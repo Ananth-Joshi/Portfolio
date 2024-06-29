@@ -2,7 +2,7 @@ import React from 'react'
 
 function ContactMe() {
   return (
-    <div className='flex flex-col my-10 md:w-1/2 lg:w-1/2 w-3/4 items-center mx-7'>
+    <div className='flex flex-col my-10 md:w-1/2 lg:w-1/2 w-5/6 items-center mx-7'>
         <div className='text-white text-3xl mb-5'>
             CONTACT ME
         </div>
