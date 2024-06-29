@@ -8,7 +8,7 @@ import resume from '../assets/resume.pdf'
 function Profile() { 
   
   return (
-    <div className='flex flex-wrap-reverse items-center mb-4 pt-12 pb-6 justify-center mx-4 gap-5'>
+    <div className='flex flex-wrap-reverse mb-4 pt-12 pb-6 justify-center mx-4 gap-5'>
         <motion.div 
         initial={{opacity:0,translateX:'-40px'}}
         whileInView={{opacity:1,translateX:'0'}}
