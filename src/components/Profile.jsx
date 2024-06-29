@@ -18,7 +18,7 @@ function Profile() {
           <div className='text-slate-400 font-medium text-xl'>
             <Typewriter words={['Full Stack Developer','Engineering Student','Programmer']} cursor={true} loop={true}/>
           </div>
-          <div className='text-white break-words py-4 w-[400px]'>I'm a passionate developer with a strong foundation 
+          <div className='text-white break-words py-4 lg:w-[400px] md:w-[400px]'>I'm a passionate developer with a strong foundation 
           in both front-end and back-end development. 
             I enjoy crafting user-friendly interfaces and building robust, scalable applications.</div>
           <motion.a href={resume} download className='flex items-center absolute text-white p-2 rounded-lg hover:text-black bg-blue-500'  initial={{opacity:0,translateX:'40px'}} whileInView={{opacity:1,translateX:'0'}} transition={{duration:1}}>
