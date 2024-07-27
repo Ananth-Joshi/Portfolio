@@ -20,7 +20,7 @@ function Projects() {
                     <SiTypescript color='#3aa6e9'/>
                 ]
             }
-            link={'/'}
+            link={'https://github.com/Ananth-Joshi/AutoQ'}
             />
             <ProjectCard 
             title={'Malware Scanner'} 
