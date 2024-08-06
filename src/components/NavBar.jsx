@@ -13,7 +13,7 @@ function NavBar() {
         <div className='flex items-center gap-2'>
             <a href={'https://github.com/Ananth-Joshi'}><FaGithub color='white' className=' hover:scale-125' size={30}/></a>
             <a href={'https://www.linkedin.com/in/ananth-a-joshi/'}><FaLinkedin className=' hover:scale-125' color='white' size={30}/></a>
-            <a href={'https://www.x.com'}><FaXTwitter color='white' className=' hover:scale-125' size={30}/></a>
+            <a href={'https://x.com/AnanthJosh7261'}><FaXTwitter color='white' className=' hover:scale-125' size={30}/></a>
         </div>
     </div>
   )
