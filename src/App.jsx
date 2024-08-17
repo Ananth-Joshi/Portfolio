@@ -10,14 +10,16 @@ import Particle from './components/Particle'
 
 function App() {
   return (
-    <div className='relative flex flex-col max-w-screen mx-0 scroll-mx-0 first-line:overflow-x-clip justify-center items-center'> 
-        <Particle/>
-        <NavBar/>
-        <Profile/>
-        <Skills/>
-        <Projects/>
-        <Certifications/>
-        <ContactMe/>
+    <div className='relative flex flex-col min-h-screen w-full'> 
+      <Particle />
+      <div className="relative z-10 flex flex-col items-center justify-center w-full">
+          <NavBar />
+          <Profile />
+          <Skills />
+          <Projects />
+          <Certifications />
+          <ContactMe />
+      </div>
     </div>
   )
 }
