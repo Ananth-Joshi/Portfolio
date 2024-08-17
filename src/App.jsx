@@ -10,9 +10,9 @@ import Particle from './components/Particle'
 
 function App() {
   return (
-    <div className='relative flex flex-col min-h-screen w-full'> 
+    <div className='relative flex flex-col pointer-events-auto min-h-screen w-full'> 
       <Particle />
-      <div className="relative z-10 flex flex-col items-center justify-center w-full">
+      <div className="relative z-10 flex pointer-events-none flex-col items-center justify-center w-full">
           <NavBar />
           <Profile />
           <Skills />

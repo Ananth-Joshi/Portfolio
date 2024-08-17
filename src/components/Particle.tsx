@@ -13,7 +13,7 @@ const Particle=()=>{
         id="tsparticles"
         init={particlesInit}
         style={{
-            zIndex:-1
+            zIndex:-1,
         }}
         options={{
             particles: {

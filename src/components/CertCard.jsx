@@ -3,7 +3,7 @@ import { IoEyeSharp } from "react-icons/io5";
 
 function CertCard({imgLink,title,desc,link}) {
   return (
-    <div className='flex flex-wrap p-4 w-full justify-center lg:justify-start rounded-lg items-center gap-3 bg-[hsl(216,32%,17%)]'>
+    <div className='flex flex-wrap pointer-events-auto p-4 w-full justify-center lg:justify-start rounded-lg items-center gap-3 bg-[hsl(216,32%,17%)]'>
         <img src={imgLink} className=' h-52 lg:w-1/3'/>
         <div className='lg:w-1/2'> 
             <div className='text-2xl text-white font-extrabold break-words'>{title}</div>
