@@ -32,8 +32,3 @@
   box-shadow: 0 0 12px #5a5a5a; 
 }
 
-/* For Firefox */
-* {
-  scrollbar-width: thin;
-  scrollbar-color: orange #0F172A;
-}
