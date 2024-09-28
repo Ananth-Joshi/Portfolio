@@ -29,6 +29,7 @@ function Projects() {
                 [
                     <RiNextjsFill color='white'/>,
                     <RiFirebaseFill color='yellow'/>,
+                    <SiTypescript color='#3aa6e9'/>
                 ]
             }
             link={'https://github.com/Ananth-Joshi/texpert'}
