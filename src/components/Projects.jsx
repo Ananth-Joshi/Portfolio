@@ -1,7 +1,7 @@
 import React from 'react'
 import ProjectCard from './ProjectCard'
 import { FaPython, FaReact } from 'react-icons/fa'
-import { RiFirebaseFill, RiTailwindCssFill } from 'react-icons/ri'
+import { RiFirebaseFill, RiTailwindCssFill ,RiNextjsFill} from 'react-icons/ri'
 import { SiTypescript } from 'react-icons/si'
 
 function Projects() {
@@ -23,14 +23,15 @@ function Projects() {
             link={'https://github.com/Ananth-Joshi/AutoQ'}
             />
             <ProjectCard 
-            title={'Malware Scanner'} 
-            text={'A simple file hash based malware scanner using python, Gemini and virusTotal API.'}
+            title={'TeXpert'} 
+            text={'A document generator from text prompt using gemini API to generate LaTeX code.'}
             stackIcons={
                 [
-                    <FaPython color='white'/>,
+                    <RiNextjsFill color='white'/>,
+                    <RiFirebaseFill color='yellow'/>,
                 ]
             }
-            link={'https://github.com/Ananth-Joshi/Malware-Scanner'}
+            link={'https://github.com/Ananth-Joshi/texpert'}
             />
             <ProjectCard
             title={'Tic-Tac-Toe'} 
