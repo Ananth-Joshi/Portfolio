@@ -1,25 +1,25 @@
 import './App.css'
-import Profile from './components/Profile'
-import NavBar from './components/NavBar'
-import Skills from './components/Skills'
-import Projects from './components/Projects'
-import Certifications from './components/Certifications'
-import ContactMe from './components/ContactMe'
-import Particle from './components/Particle'
+import Profile from './components/LandingPage/Profile'
+import NavBar from './components/LandingPage/NavBar'
+import Skills from './components/LandingPage/Skills'
+import Projects from './components/LandingPage/Projects'
+import Certifications from './components/LandingPage/Certifications'
+import ContactMe from './components/LandingPage/ContactMe'
+import Particle from './components/LandingPage/Particle'
+import { Route, Routes } from 'react-router-dom'
+import LandingPage from './components/LandingPage/LandingPage'
+import TimeLine from './components/TimeLine/TimeLine'
 
 
 function App() {
   return (
     <div className='relative flex flex-col pointer-events-auto min-h-screen w-full'> 
       <Particle />
-      <div className="relative z-10 flex pointer-events-none flex-col items-center justify-center w-full">
-          <NavBar />
-          <Profile />
-          <Skills />
-          <Projects />
-          <Certifications />
-          <ContactMe />
-      </div>
+      <NavBar />
+      <Routes>
+        <Route path="/" element={<LandingPage/>} />
+        <Route path="/timeline" element={<TimeLine />} />
+      </Routes>
     </div>
   )
 }

@@ -10,7 +10,11 @@ function ProjectCard({title,text,stackIcons,link}) {
           <div className='text-white break-words'>{text}</div>
           <div className='flex gap-2 mt-1'>
             {
-                stackIcons
+                stackIcons.map((icon,index)=>(
+                    <span key={index}>
+                        {icon}
+                    </span>
+                ))
             }
           </div>
         </div>
