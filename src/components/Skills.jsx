@@ -7,7 +7,7 @@ import { FaPython } from "react-icons/fa";
 import { RiNextjsLine } from "react-icons/ri";
 import { RiTailwindCssFill,RiFirebaseFill } from "react-icons/ri";
 import Animation from './Animation';
-import { SiTypescript } from "react-icons/si";
+import { SiLaravel, SiPhp, SiTypescript } from "react-icons/si";
 import { SiExpress } from "react-icons/si";
 import { SiMysql } from "react-icons/si";
 import { BiLogoMongodb } from "react-icons/bi";
@@ -35,9 +35,11 @@ function Skills() {
             <Animation delay={1.4} once={true}><SiMysql color='lightblue' size={'10vh'}/></Animation>
             <Animation delay={1.5} once={true}><BiLogoMongodb color='#00ED64' size={'10vh'}/></Animation>
             <Animation delay={1.6} once={true}><SiAppwrite color='#d74559' size={'10vh'}/></Animation>
-            <Animation delay={1.6} once={true}><RiFirebaseFill color='yellow' size={'10vh'}/></Animation>
-            <Animation delay={1.6} once={true}><RiFlutterFill color='#3aa6e9' size={'10vh'}/></Animation>
-        </div>
+            <Animation delay={1.6} once={true}><RiFirebaseFill color='yellow' size={'10vh'}/></Animation>        
+            <Animation delay={1.7} once={true}><SiPhp color='#8892bf' size={'10vh'}/></Animation>
+            <Animation delay={1.7} once={true}><SiLaravel color='#ff2020'  size={'10vh'}/></Animation>
+
+          </div>
     </div>
   )
 }
