@@ -5,7 +5,7 @@ import { FaXTwitter } from "react-icons/fa6";
 
 function NavBar() {
   return (
-    <div className='flex items-center pointer-events-none justify-around py-4 border-[#f8fafc0f] w-screen'>
+    <div className='flex items-center pointer-events-none relative justify-around py-4 border-[#f8fafc0f] w-screen'>
         <div className='flex items-center gap-2'>
             <div className='text-white font-extrabold text-5xl'>AJ</div>
             <div className='text-white font-extrabold'> ANANTH JOSHI</div>
