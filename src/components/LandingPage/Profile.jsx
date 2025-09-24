@@ -16,7 +16,7 @@ function Profile() {
       >
         <div className='text-white text-4xl font-bold'>Ananth A Joshi</div>
         <div className='text-slate-400 font-medium text-xl'>
-          <Typewriter words={['Full Stack Developer','Engineering Student','Programmer']} cursor={true} loop={true}/>
+          <Typewriter words={['Full Stack Developer','Engineering Graduate','Programmer']} cursor={true} loop={true}/>
         </div>
         <div className='text-white break-words py-4 lg:w-[400px] md:w-[400px]'>
           I'm a passionate developer with a strong foundation 
