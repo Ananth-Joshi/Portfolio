@@ -27,7 +27,7 @@ function Timeline() {
       <div className="w-full max-w-4xl flex justify-start mb-6">
         <button
           onClick={() => navigate(-1)}
-          className="flex items-center text-indigo-300 hover:text-indigo-400 transition-colors"
+          className="flex items-center pointer-events-auto relative  text-indigo-300 hover:text-indigo-400 transition-colors"
         >
           <svg
             className="w-5 h-5 mr-2"
@@ -63,7 +63,7 @@ function Timeline() {
                 <h3 className="text-xl font-semibold text-white mb-2">{item.title}</h3>
                 <h4 className="text-base text-gray-300 mb-3">{item.subtitle}</h4>
                 {item.icons && (
-                  <div className="flex justify-center sm:justify-end mb-3 space-x-4">
+                  <div className={`flex flex-wrap mb-3 ${index%2==0?'justify-end':'justify-start'}  space-x-4`}>
                     {item.icons.map((icon, i) => (
                       <div key={i}>{icon}</div>
                     ))}
