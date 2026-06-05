@@ -11,7 +11,7 @@ const timelineData = [
     icons: [<SiPhp color='#8892bf' size={'25px'} />, <SiLaravel color='#ff2020' size={'25px'} />, <SiMysql color='lightblue' size={'25px'} />],
   },
   {
-    date: 'Jul 2025 - Present',
+    date: 'Jul 2025 - May 2026',
     title: 'Junior Full Stack Engineer',
     subtitle: 'D IT Solutions Pvt. Ltd.',
     description: 'Designed and implemented full-stack solutions, integrated APIs, and ensured responsive design across platforms.',

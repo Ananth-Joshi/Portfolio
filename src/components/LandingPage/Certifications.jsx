@@ -25,7 +25,7 @@ function Certifications() {
             link={'https://www.freecodecamp.org/certification/AJ123/back-end-development-and-apis'}
             />
         </div>
-        <a
+        {/* <a
             href="https://github.com/Ananth-Joshi?tab=repositories"
             target="_blank"
             rel="noopener noreferrer"
@@ -33,7 +33,7 @@ function Certifications() {
         >
             <PiCertificate />
             View All Certifications
-        </a>
+        </a> */}
     </div>
   )
 }
