@@ -8,14 +8,14 @@ const timelineData = [
     title: 'Junior Web Alchemist Intern',
     subtitle: 'D IT Solutions Pvt. Ltd.',
     description: 'Developed and maintained web applications, collaborated with teams, and optimized user interfaces.',
-    icons: [<SiPhp color='#8892bf' size={'25px'} />, <SiLaravel color='#ff2020' size={'25px'} />, <SiMysql color='lightblue' size={'25px'} />],
+    icons: [<SiPhp color="#8892bf" size={"25px"} />, <SiLaravel color="#ff2020" size={"25px"} />, <SiMysql color="lightblue" size={"25px"} />],
   },
   {
     date: 'Jul 2025 - May 2026',
     title: 'Junior Full Stack Engineer',
     subtitle: 'D IT Solutions Pvt. Ltd.',
     description: 'Designed and implemented full-stack solutions, integrated APIs, and ensured responsive design across platforms.',
-    icons: [<SiPhp color='#8892bf' size={'25px'} />, <SiLaravel color='#ff2020' size={'25px'} />, <SiMysql color='lightblue' size={'25px'} />],
+    icons: [<SiPhp color="#8892bf" size={"25px"} />, <SiLaravel color="#ff2020" size={"25px"} />, <SiMysql color="lightblue" size={"25px"} />],
   },
 ];
 
@@ -27,7 +27,7 @@ function Timeline() {
       <div className="w-full max-w-4xl flex justify-start mb-6">
         <button
           onClick={() => navigate(-1)}
-          className="flex items-center pointer-events-auto relative  text-indigo-300 hover:text-indigo-400 transition-colors"
+          className="flex items-center pointer-events-auto relative text-indigo-300 hover:text-indigo-400 transition-colors"
         >
           <svg
             className="w-5 h-5 mr-2"
@@ -50,20 +50,21 @@ function Timeline() {
         Experience Timeline
       </h1>
       <div className="relative w-full max-w-4xl">
-        <div className="absolute left-1/2 transform -translate-x-1/2 h-full w-1 bg-indigo-500"></div>
+        <div className="absolute left-4 md:left-1/2 transform -translate-x-1/2 h-full w-1 bg-indigo-500"></div>
         {timelineData.map((item, index) => (
           <div
             key={index}
-            className={`mb-12 flex items-center w-full ${
-              index % 2 === 0 ? 'flex-row' : 'flex-row-reverse'
+            className={`relative mb-12 flex flex-col md:flex-row items-start md:items-center w-full ${
+              index % 2 === 0 ? 'md:flex-row' : 'md:flex-row-reverse'
             }`}
           >
-            <div className={`w-5/12 ${index % 2 === 0 ? 'pr-8 text-right' : 'pl-8 text-left'}`}>
+            <div className={`w-full md:w-5/12 pl-12 md:pl-0 ${index % 2 === 0 ? 'text-left md:text-right md:pr-8' : 'text-left md:pl-8'}`}>
               <div className="bg-gray-800 p-6 rounded-lg shadow-md transition-transform hover:scale-105">
+                <p className="md:hidden text-sm text-indigo-400 font-medium mb-2">{item.date}</p>
                 <h3 className="text-xl font-semibold text-white mb-2">{item.title}</h3>
                 <h4 className="text-base text-gray-300 mb-3">{item.subtitle}</h4>
                 {item.icons && (
-                  <div className={`flex flex-wrap mb-3 ${index%2==0?'justify-end':'justify-start'}  space-x-4`}>
+                  <div className={`flex flex-wrap mb-3 justify-start ${index % 2 === 0 ? 'md:justify-end' : 'md:justify-start'} space-x-4`}>
                     {item.icons.map((icon, i) => (
                       <div key={i}>{icon}</div>
                     ))}
@@ -72,13 +73,13 @@ function Timeline() {
                 <p className="text-sm text-gray-400 leading-relaxed">{item.description}</p>
               </div>
             </div>
-            <div className="w-2/12 flex justify-center">
+            <div className="absolute left-4 top-8 md:top-auto md:static md:w-2/12 flex justify-center transform -translate-x-1/2 md:translate-x-0">
               <div className="w-6 h-6 bg-indigo-500 rounded-full z-10 flex items-center justify-center text-white text-xs">
                 {index + 1}
               </div>
             </div>
-            <div className={`w-5/12 ${index % 2 === 0 ? 'pl-8' : 'pr-8'}`}>
-              <p className={`text-sm text-gray-300 font-medium ${index % 2 === 0 ? 'text-start' : 'text-end'}`}>
+            <div className={`hidden md:block w-5/12 ${index % 2 === 0 ? 'pl-8' : 'pr-8'}`}>
+              <p className={`text-sm text-gray-300 font-medium ${index % 2 === 0 ? 'text-left' : 'text-right'}`}>
                 {item.date}
               </p>
             </div>
