@@ -7,7 +7,7 @@ import { FaPython } from "react-icons/fa";
 import { RiNextjsLine } from "react-icons/ri";
 import { RiTailwindCssFill,RiFirebaseFill } from "react-icons/ri";
 import Animation from './Animation';
-import { SiArduino, SiKotlin, SiLaravel, SiPhp, SiTypescript } from "react-icons/si";
+import { SiArduino, SiGit, SiKotlin, SiLaravel, SiPhp, SiPostman, SiTypescript } from "react-icons/si";
 import { SiExpress } from "react-icons/si";
 import { SiMysql } from "react-icons/si";
 import { BiLogoMongodb } from "react-icons/bi";
@@ -38,8 +38,10 @@ function Skills() {
             <Animation delay={1.6} once={true}><RiFirebaseFill color='yellow' size={'10vh'}/></Animation>        
             <Animation delay={1.7} once={true}><SiPhp color='#8892bf' size={'10vh'}/></Animation>
             <Animation delay={1.7} once={true}><SiLaravel color='#ff2020'  size={'10vh'}/></Animation>
-            <Animation delay={1.7} once={true}><SiKotlin color='#ff2020'  size={'10vh'}/></Animation>
-            <Animation delay={1.7} once={true}><SiArduino color='#ff2020'  size={'10vh'}/></Animation>
+            <Animation delay={1.7} once={true}><SiKotlin color='#ff00fe'  size={'10vh'}/></Animation>
+            <Animation delay={1.7} once={true}><SiArduino color='#00979D'  size={'10vh'}/></Animation>
+            <Animation delay={1.7} once={true}><SiGit color='#F1502F'  size={'10vh'}/></Animation>
+            <Animation delay={1.7} once={true}><SiPostman color='#F1502F'  size={'10vh'}/></Animation>
           </div>
     </div>
   )
